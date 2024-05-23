@@ -1,3 +1,4 @@
+/* Reset default styles for all elements */
 * {
     margin: 0;
     padding: 0;
@@ -7,41 +8,43 @@
     font-style: normal;
 }
 
+/* Header styles */
 header {
     margin-left: 42px;
     margin-top: 47px;
     margin-right: 32px;
-
 }
 
+/* Wrapper styles */
 .wrapper {
     height: 100vh;
     width: 100vw;
 }
 
+/* Left container styles */
 .container-left {
     display: inline-block;
     width: 50%;
-
-
 }
 
+/* Right container styles */
 .container-right {
     display: inline-block;
     position: absolute;
-
-
+    /* Adjust the right position for 2560px width */
+    right: 0;
 }
 
+/* Image styles */
 img {
     width: 595.18px;
     height: 500px;
     margin-top: 246px;
-    margin-left: 121px
+    margin-left: 121px;
 }
 
+/* Heading styles */
 h1 {
-
     font-size: 62px;
     font-weight: 700;
     line-height: 82px;
@@ -54,17 +57,18 @@ h1 {
     margin-bottom: 47px;
 }
 
+/* Paragraph styles */
 p {
     width: 493px;
     height: 99px;
     margin-top: 47px;
-    margin-left: 801px
-}
-.link {{
-    margin-top: 55px;
-    margin-bottom: 114px; 
     margin-left: 801px;
-    margin-right: 527px
+}
 
-
-}}
+/* Link styles */
+.link {
+    margin-top: 55px;
+    margin-bottom: 114px;
+    margin-left: 801px;
+    margin-right: 527px;
+}
